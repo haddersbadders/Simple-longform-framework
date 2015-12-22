@@ -1,7 +1,7 @@
 
 #A Simple Long-form Framework
 
-[A demo of the template can be found here.](http://haddersbadders.github.io/long-form/)
+[A more developed demo of the template can be found here.](http://haddersbadders.github.io/long-form/)
 
 This template is in the style of a long-form page. The long-form style strips out web page furniture such as header, nav, sidebar etc and puts the focus on content with full width images, large type and headers.
 
@@ -9,10 +9,12 @@ This template is in the style of a long-form page. The long-form style strips ou
 
 The structure is really quite simple: Content is broken down into sections using the HTML tag ```<section>```.
 
-There are two types of ```<section>```that are differentiated using two different class names:
+There are four types of ```<section>```that are differentiated using two different class names:
 
-- A content section, using the class name **content**
-- A header section, that uses the class name **img_container**
+- A content section using the class name **content**
+- Full width and height section with background image that uses the class name **img_container**
+- Full width and height section with background video that uses the class name **video_container**
+- Full width and height section with background colour that uses the class name **color_container**
 
 ###Examples
 
