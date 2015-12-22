@@ -1,7 +1,7 @@
 
 #A Simple Long-form Framework
 
-[A more developed demo of the template can be found here.](http://haddersbadders.github.io/long-form/)
+[A more developed demo of the template can be found here.](http://haddersbadders.github.io/longform/)
 
 This template is in the style of a long-form page. The long-form style strips out web page furniture such as header, nav, sidebar etc and puts the focus on content with full width images, large type and headers.
 
