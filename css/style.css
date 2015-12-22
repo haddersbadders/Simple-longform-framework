@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic,700italic);
+
+
+body { /* sets the page defaults */
+background: #fff;
+font-family: 'Noto Serif', serif;
+margin: 0;
+font-size: 20px;
+line-height: 1.5;
+color: rgba(0, 0, 0, 0.74);
+}
+
+header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+h2 {
+  margin: 0;
+}
+figure {
+  margin: 0; /* resets the left margin in the figure*/
+}
+
+figure img {
+  max-width: 100%; /* images will shrink to fit inside the main conent column*/
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.7);
+}
+figcaption {
+  font-size: 14px;
+  color: #555;
+}
+
+.img_container, .color_conatiner {
+  height: 100vh; /* this sets the height of each full width image section to that of the viewport.*/
+  position: relative;
+  display: flex;
+}
+.video_container {
+  display: block;
+  position: relative;
+  height: 100vh;
+}
+.video_container header {
+  position: absolute;
+
+  text-align: center;
+
+  top: 20%;
+}
+header {
+  width: 75%;
+  text-align: center;
+  margin: auto;
+}
+header {
+  color: #fff;
+  text-shadow:0 0 9px #000000;
+}
+header h1 {
+  margin: 0;
+  font-size: 8vw;
+}
+/* Styles for individual header sections by class name. */
+
+.masthead {
+  background: url(../img/IMG_20150714_101239.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed; /* the background image doesn't move when scrolling*/
+  overflow: hidden;
+}
+.paris {
+  background: url(../img/Paris2013.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.color_header {
+  background: #bada55;
+}
+header h1 {
+  font-size: 6vw;
+}
+
+/* Text blocks */
+.content {
+  margin: 0 auto;
+  position: relative;
+  overflow: visible;
+  padding: 1em 20%;
+}
+
+footer {
+width: 100%;
+height: 100px;
+background: #000;
+color: #eee;
+text-align: center;
+padding: 1em;
+}
