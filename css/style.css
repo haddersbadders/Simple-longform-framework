@@ -46,8 +46,10 @@ figcaption {
   position: absolute;
 
   text-align: center;
-
-  top: 20%;
+height: 100vh;
+width: 100%;
+vertical-align: middle;
+  top: 0;
 }
 header {
   width: 75%;
