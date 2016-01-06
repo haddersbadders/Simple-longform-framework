@@ -44,12 +44,15 @@ figcaption {
 }
 .video_container header {
   position: absolute;
-
   text-align: center;
 height: 100vh;
 width: 100%;
-vertical-align: middle;
+
   top: 0;
+}
+
+.video_container header h1 {
+  vertical-align: middle;
 }
 header {
   width: 75%;
