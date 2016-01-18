@@ -1,7 +1,16 @@
 // Uncomment to initialise WOW.js
-// new WOW().init();
+new WOW().init();
 
+// Carousel
+$(document).ready(function() {
 
+$("#owl-example").owlCarousel({
+
+  singleItem: true,
+  itemsScaleUp: true
+});
+
+});
 
 // YouTube Stuff
 
@@ -70,3 +79,13 @@ $(function () { // wait for document ready
              })
             .addTo(controller);
   });
+
+
+
+// Parallax stuff
+
+function parallax() {
+  var prlax = document.getElementByID('prlax');
+  prlax.style.top = -(window.pageYOffset / 4)+'px';
+}
+window.addEventListener("scroll", parallax, false);

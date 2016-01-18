@@ -1,8 +1,9 @@
+/* Import Google Web fonts */
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic,700italic);
 
 
-body { /* sets the page defaults */
+body { /* sets the page defaults e.g. background and default typography */
 background: #fff;
 font-family: 'Noto Serif', serif;
 margin: 0;
@@ -58,6 +59,8 @@ width: 100%;
     -moz-transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
 }
+
+
 header {
   width: 75%;
   text-align: center;
@@ -70,6 +73,9 @@ header {
 header h1 {
   margin: 0;
   font-size: 8vw;
+}
+header a {
+  color: white;
 }
 /* Styles for individual header sections by class name. */
 
@@ -87,6 +93,13 @@ header h1 {
 .green_header {
   background: #bada55;
 }
+
+.rocks {
+  background: url(../img/IMG_2123.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 header h1 {
   font-size: 6vw;
 }
