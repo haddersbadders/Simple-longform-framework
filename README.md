@@ -67,5 +67,10 @@ YouTube is invoked using the [Youtube API](https://developers.google.com/youtube
 
 ##Audio
 
-Similar to firing off a Youtube vide when scrolled to, we can use ScrollMagic to play/pause an audio file. [Scroll to "some pretty things in the desert" for as demo](http://haddersbadders.github.io/fancy-longform/) 
+Similar to firing off a Youtube vide when scrolled to, we can use ScrollMagic to play/pause an audio file:
+
+[Scroll to "some pretty things in the desert" for as demo](http://haddersbadders.github.io/fancy-longform/) 
+
+[The code is here](https://github.com/haddersbadders/fancy-longform/tree/Master)
+
 In the "flowers" section header, audio is embeded using the ```<audio>``` element. Playback is controlled in js/index.js using ScollMagic. When the user scrolls to the trigger div, ScrollMagic plays the audio file and pauses when scrolled away.
