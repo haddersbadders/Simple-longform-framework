@@ -32,6 +32,35 @@ figcaption {
   font-size: 14px;
   color: #555;
 }
+blockquote.left {
+    float: left;
+    margin: 0 1em 1em 0;
+    background: wheat;
+    padding: 1em;
+    font-size: 1.5em;
+    width: 33%;
+    position: relative;
+}
+blockquote.left::before {
+    content: open-quote;
+    font-size: 3em;
+    line-height: 1;
+    position: absolute;
+    font-family: serif;
+    top: 0;
+    left: 0;
+}
+
+blockquote.left::after {
+    content: close-quote;
+    font-size: 3em;
+    line-height: 1;
+    position: absolute;
+    font-family: serif;
+    bottom: 0;
+    right: 0;
+}
+
 
 .img_container, .color_conatiner {
   height: 100vh; /* this sets the height of each full width image section to that of the viewport.*/
