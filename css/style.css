@@ -66,6 +66,7 @@ blockquote.left::after {
   height: 100vh; /* this sets the height of each full width image section to that of the viewport.*/
   position: relative;
   display: flex;
+  background-position: center !important;
 }
 .video_container {
   display: block;
