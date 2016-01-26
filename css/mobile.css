@@ -1,0 +1,31 @@
+/* This is the mobile responsive stylesheet */
+
+@media only screen and (min-width: 768px) {
+    /* tablets and desktop */
+}
+
+@media only screen and (max-width: 767px) {
+    /* phones */
+    .content {
+      margin: 0 auto;
+      position: relative;
+
+      padding: 1em;
+    }
+
+    blockquote.left {
+
+        margin: 0 1em 1em 0;
+        background: wheat;
+        padding: 1em;
+        font-size: 1.5em;
+        width: 90%;
+        position: relative;
+    }
+
+
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    /* portrait phones */
+}
