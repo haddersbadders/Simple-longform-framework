@@ -41,7 +41,7 @@ blockquote.left {
     width: 33%;
     position: relative;
 }
-blockquote.left::before {
+/*blockquote.left::before {
     content: open-quote;
     font-size: 3em;
     line-height: 1;
@@ -59,7 +59,7 @@ blockquote.left::after {
     font-family: serif;
     bottom: 0;
     right: 0;
-}
+}*/
 
 
 .img_container, .color_conatiner {
