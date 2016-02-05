@@ -41,25 +41,6 @@ blockquote.left {
     width: 33%;
     position: relative;
 }
-/*blockquote.left::before {
-    content: open-quote;
-    font-size: 3em;
-    line-height: 1;
-    position: absolute;
-    font-family: serif;
-    top: 0;
-    left: 0;
-}
-
-blockquote.left::after {
-    content: close-quote;
-    font-size: 3em;
-    line-height: 1;
-    position: absolute;
-    font-family: serif;
-    bottom: 0;
-    right: 0;
-}*/
 
 
 .img_container, .color_conatiner {
