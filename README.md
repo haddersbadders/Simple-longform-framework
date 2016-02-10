@@ -2,6 +2,7 @@
 #A Simple Long-form Framework
 
 [A demo of this framework can be found here.](http://haddersbadders.github.io/Simple-longform-framework/)
+
 [Here's the CSS almanac if you need it](https://css-tricks.com/almanac/properties/)
 
 This template is in the style of a long-form page. The long-form style strips out web page furniture such as header, nav, sidebar etc and puts the focus on content. The style features full width images, large type and headers.
