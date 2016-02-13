@@ -3,13 +3,15 @@
 
 [A demo of this framework can be found here.](http://haddersbadders.github.io/Simple-longform-framework/)
 
+[Here's the CSS almanac if you need it](https://css-tricks.com/almanac/properties/)
+
 This template is in the style of a long-form page. The long-form style strips out web page furniture such as header, nav, sidebar etc and puts the focus on content. The style features full width images, large type and headers.
 
 ##Structure
 
 The structure is really quite simple: Content is broken down into **sections** using the HTML tag ```<section>```.
 
-There are four types of ```<section>```that are differentiated using two different class names:
+There are four types of ```<section>```that are differentiated using three different class names:
 
 - A content section using the class name **content**
 - Full width and height section with background image that uses the class name **img_container**
@@ -59,6 +61,10 @@ I've used ```<section>``` elements, but because the styles are controlled by cla
 Also included are [Animate.css](https://daneden.github.io/animate.css/) and [Wow.js](http://mynameismatthieu.com/WOW/).
 
 Animate.css provides animation for elements and Wow.js allows control over these animations so they occur when scrolled to.
+
+##Image slider
+
+Included is the [Owl Carousel image slider](http://www.owlcarousel.owlgraphic.com/). This will go in a content section or (TODO) full width.
 
 ##YouTube
 
