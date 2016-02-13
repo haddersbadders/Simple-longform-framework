@@ -7,6 +7,13 @@ $(document).ready(function(){
     items: 1,
     nav: true
   });
+  $(".alps-carousel").owlCarousel({
+    items: 1,
+    dots: false,
+    autoplay: true,
+    animateOut: 'fadeOut'
+  });
+
 });
 
 
