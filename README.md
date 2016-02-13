@@ -62,6 +62,10 @@ Also included are [Animate.css](https://daneden.github.io/animate.css/) and [Wow
 
 Animate.css provides animation for elements and Wow.js allows control over these animations so they occur when scrolled to.
 
+##Image slider
+
+Included is the [Owl Carousel image slider](http://www.owlcarousel.owlgraphic.com/). This will go in a content section or (TODO) full width.
+
 ##YouTube
 
 YouTube is invoked using the [Youtube API](https://developers.google.com/youtube/) rather than just the iFrame embed. This is beacuase the YouTube video is paused until the user scrolls to it then pauses again once the user scrolls past. This is controlled in the js/index.js file using [ScrollMagic](http://scrollmagic.io/examples/index.html).
