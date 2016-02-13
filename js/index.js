@@ -1,6 +1,15 @@
 // Uncomment to initialise WOW.js
 new WOW().init();
 
+// Owl Carousel initialisation
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel({
+    items: 1,
+    nav: true
+  });
+});
+
+
 
 // YouTube Stuff
 
