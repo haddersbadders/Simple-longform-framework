@@ -7,12 +7,13 @@ $(document).ready(function(){
     items: 1,
     nav: true
   });
+  // This adds an additional carousel. Remove/comment out if not needed
   $(".alps-carousel").owlCarousel({
     items: 1,
     dots: false,
     autoplay: true,
     animateOut: 'fadeOut'
-  });
+  }); //
 
 });
 
@@ -72,16 +73,15 @@ function stopVideo() {
 var controller = new ScrollMagic.Controller();
 
 
-$(function () { // wait for document ready
-    // build scene
-    var scene = new ScrollMagic.Scene({triggerElement: "#_video", duration: 500})
+$(function () {
+  // build scene
+  var scene = new ScrollMagic.Scene({triggerElement: "#_video", duration: 500})
 
-
-            .on("enter", function () {
-                player.playVideo();
-                })
-            .on("leave", function () {
-               player.pauseVideo();
-             })
-            .addTo(controller);
-  });
+  .on("enter", function () {
+    player.playVideo();
+  })
+  .on("leave", function () {
+    player.pauseVideo();
+  })
+  .addTo(controller);
+});
