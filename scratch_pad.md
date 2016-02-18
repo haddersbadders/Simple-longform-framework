@@ -12,9 +12,19 @@ The img_container class sets up the dimensions of the element.
 </section>
 ```
 
-Add an additional class name, in this case "dogs" so that you can define a background image in CSS.
+Add an additional class name, in this case "dogs" so that you can define a background image in CSS:
 
 ```
 <section class="dogs img_container">
 
 </section>
+
+To accompany this, add a new CSS style in style.css:
+
+```
+.dogs {
+  background: url(../img/dog_pic.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+```
