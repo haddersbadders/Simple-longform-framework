@@ -37,3 +37,15 @@ You can then put content inside this section, for example a header with headings
   </header>
 </section>
 ```
+
+But it doesn't need to be headings, it could be blockquote, or anything. This may require additional CSS.
+
+###Content sections
+
+A content section gives you a column to put your text and any other media.
+
+```
+<section class="content">
+  //Your content
+</section>
+```
