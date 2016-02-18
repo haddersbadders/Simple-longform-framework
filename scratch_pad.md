@@ -73,6 +73,8 @@ And in CSS, create a new style:
   background: #bada55;
 }
 ```
+Add the header and h1 as with the img_container.
+
 ###Image carousel
 [Owl Carousel](http://smashingboxes.github.io/OwlCarousel2/) has been integrated. Simply create some HTML like:
 
