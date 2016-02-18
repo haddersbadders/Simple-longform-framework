@@ -73,3 +73,34 @@ And in CSS, create a new style:
   background: #bada55;
 }
 ```
+###Image carousel
+[Own Carousel](http://smashingboxes.github.io/OwlCarousel2/) has been integrated. Simply create some HTML like:
+
+```
+<div class="owl-carousel">
+  <div> <img src="img/Slider/IMG_2712.JPG" alt="" /> </div>
+  <div> <img src="img/Slider/IMG_2927.JPG" alt="" /> </div>
+  <div> <img src="img/Slider/IMG_2959.JPG" alt="" /> </div>
+</div>
+
+```
+Noting the class name given e.g. "owl-carousel". Then initialise the carousel in index.js.
+```
+
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel({
+    items: 1,
+    nav: true
+  });
+
+  $(".alps-carousel").owlCarousel({
+    items: 1,
+    dots: false,
+    autoplay: true,
+    animateOut: 'fadeOut'
+  }); //
+
+});
+```
+
+The above initialises two separate carousels, one with a class "owl-carousel" and the other "alps-carousel".
