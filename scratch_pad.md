@@ -75,6 +75,29 @@ And in CSS, create a new style:
 ```
 Add the header and h1 as with the img_container.
 
+###Full width videos
+
+This is YouTube videos at the moment. The section uses the class "video_container" which sets the dimensions.
+```
+<section class="video_container">
+
+</section>
+```
+Youtube is initialised using Javascript, so an additional div is required.
+
+```
+<section class="video_container">
+  <div id="player"></div>
+</section>
+```
+
+Lastly, the video playback is controlled by Javascript so an ID is required.
+```
+<section class="video_container" id="_video">
+  <div id="player"></div>
+</section>
+```
+In index.js, the Youtube video ID is required e.g. youtu.be/*abc1234*
 ###Image carousel
 [Owl Carousel](http://smashingboxes.github.io/OwlCarousel2/) has been integrated. Simply create some HTML like:
 
