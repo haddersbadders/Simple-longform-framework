@@ -97,7 +97,12 @@ Lastly, the video playback is controlled by Javascript so an ID is required.
   <div id="player"></div>
 </section>
 ```
-In index.js, the Youtube video ID is required e.g. youtu.be/**abc1234**
+In index.js, the Youtube video ID is required e.g. youtu.be/_tRKl0tSOKs0_
+```
+videoId: 'tRKl0tSOKs0'
+```
+
+
 ###Image carousel
 [Owl Carousel](http://smashingboxes.github.io/OwlCarousel2/) has been integrated. Simply create some HTML like:
 
