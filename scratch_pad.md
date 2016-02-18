@@ -134,3 +134,13 @@ $(document).ready(function(){
 ```
 
 The above initialises two separate carousels, one with a class "owl-carousel" and the other "alps-carousel".
+
+###Wow animations
+[Animate.css](http://daneden.github.io/animate.css/) and [Wow.js](http://mynameismatthieu.com/WOW/) are integrated.
+
+To initialise an animation when scrolled to, add the class "wow" and any of the classes listed on animate.css website to the element:
+```
+<header class="wow fadeInUpBig">
+
+</header>
+```
