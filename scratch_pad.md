@@ -18,11 +18,13 @@ Add an additional class name, in this case "dogs" so that you can define a backg
 <section class="dogs img_container">
 
 </section>
-
+```
 To accompany this, add a new CSS style in style.css:
 
-``` .dogs {
+```
+.dogs {
   background: url(../img/dog_pic.jpg);
   background-size: cover;
   background-attachment: fixed;
-} ```
+}
+```
