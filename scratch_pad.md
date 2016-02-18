@@ -74,7 +74,7 @@ And in CSS, create a new style:
 }
 ```
 ###Image carousel
-[Own Carousel](http://smashingboxes.github.io/OwlCarousel2/) has been integrated. Simply create some HTML like:
+[Owl Carousel](http://smashingboxes.github.io/OwlCarousel2/) has been integrated. Simply create some HTML like:
 
 ```
 <div class="owl-carousel">
