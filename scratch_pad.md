@@ -28,3 +28,12 @@ To accompany this, add a new CSS style in style.css:
   background-attachment: fixed;
 }
 ```
+
+You can then put content inside this section, for example a header with headings:
+```
+<section class="dogs img_container">
+  <header>
+    <h1>Some content</h1>
+  </header>
+</section>
+```
