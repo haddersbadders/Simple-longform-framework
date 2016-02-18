@@ -63,7 +63,7 @@ As well as headers with background images, you can have just a colour.
 ```
 The "color_conatiner" class sets up the section's dimensions. The addition of your own class e.g. "bg_green" allows you to set it's colour:
 ```
-<section class="color_conatiner green_header">
+<section class="color_conatiner bg_green">
 
 </section>
 ```
