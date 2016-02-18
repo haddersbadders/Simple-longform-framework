@@ -49,3 +49,27 @@ A content section gives you a column to put your text and any other media.
   //Your content
 </section>
 ```
+
+This is straight forward.
+
+###Big heading sections with full width/height and background colour
+
+As well as headers with background images, you can have just a colour.
+
+```
+<section class="color_conatiner">
+
+</section>
+```
+The "color_conatiner" class sets up the section's dimensions. The addition of your own class e.g. "bg_green" allows you to set it's colour:
+```
+<section class="color_conatiner green_header">
+
+</section>
+```
+And in CSS, create a new style:
+```
+.bg_green {
+  background: #bada55;
+}
+```
