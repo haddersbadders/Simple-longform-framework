@@ -72,7 +72,7 @@ function stopVideo() {
 
 var controller = new ScrollMagic.Controller();
 
-
+//
 $(function () {
   // build scene
   var scene = new ScrollMagic.Scene({triggerElement: "#_video", duration: 500})
@@ -82,6 +82,23 @@ $(function () {
   })
   .on("leave", function () {
     player.pauseVideo();
+  })
+  .addTo(controller);
+});
+
+
+
+$(function () {
+  // build scene
+  var scene = new ScrollMagic.Scene({triggerElement: "#_htmlVid", duration: 500})
+  // var htmlVideo = document.getElementById("foo")[0];
+
+  .on("enter", function () {
+    document.getElementById('foo').play();
+  })
+  .on("leave", function () {
+    document.getElementById('foo').pause();
+
   })
   .addTo(controller);
 });
