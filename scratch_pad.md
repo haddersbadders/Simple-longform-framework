@@ -84,10 +84,12 @@ This method requires you to place an mp4 video file in your web directory (the i
 
 First create a section and give it a class name "video_container" - this sets up the dimentions of the section:
 ```
-<section class="video_container">
+<section class="video_container" id="_htmlVid">
 
 </section>
 ```
+The id="_htmlVid" allows us to trigger play from scrolling later on. 
+
 A ```<video>``` element is used and the mp4 video linked:
 ```
 <section class="video_container">
@@ -95,12 +97,39 @@ A ```<video>``` element is used and the mp4 video linked:
 </section>
 ```
 The ```<video>``` element can have several attributes to change it's characteristivs e.g.
-* _loop_  loops the video
-* _controls_ turns on the control interface e.g. play/stop/seek
-* _id_ gives the video element a unique name so it can be controlled in JavaScript
+* **loop**  loops the video
+* **controls** turns on the control interface e.g. play/stop/seek
+* **id** gives the video element a unique name so it can be controlled in JavaScript
+
+So for a simple video that the user controls, just use:
+```
+<video src="img/trailer.mp4" controls></video>
+```
+```
+<video src="img/trailer.mp4" loop id="foo"></video>
+```
+
+The code to control the video csan be found in index.js: 
+```
+$(function () {
+  // build scene
+  var scene = new ScrollMagic.Scene({triggerElement: "#_htmlVid", duration: 500})
+  // var htmlVideo = document.getElementById("foo")[0];
+
+  .on("enter", function () {
+    document.getElementById('foo').play();
+  })
+  .on("leave", function () {
+    document.getElementById('foo').pause();
+
+  })
+  .addTo(controller);
+});
+```
 
 
-This is YouTube videos at the moment. The section uses the class "video_container" which sets the dimensions.
+####Youtube Video at full width/height
+The section uses the class "video_container" which sets the dimensions.
 ```
 <section class="video_container">
 
