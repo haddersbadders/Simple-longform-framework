@@ -80,6 +80,8 @@ Add the header and h1 as with the img_container.
 There are two ways of implementing full width video: 
 
 ####HTML5 video
+This can be seen in the HTML5Video_test.html file.
+
 This method requires you to place an mp4 video file in your web directory (the img folder is a good place).
 
 First create a section and give it a class name "video_container" - this sets up the dimentions of the section:
