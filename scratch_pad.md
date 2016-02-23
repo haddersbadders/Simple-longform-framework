@@ -77,6 +77,29 @@ Add the header and h1 as with the img_container.
 
 ###Full width videos
 
+There are two ways of implementing full width video: 
+
+####HTML5 video
+This method requires you to place an mp4 video file in your web directory (the img folder is a good place).
+
+First create a section and give it a class name "video_container" - this sets up the dimentions of the section:
+```
+<section class="video_container">
+
+</section>
+```
+A ```<video>``` element is used and the mp4 video linked:
+```
+<section class="video_container">
+  <video src="img/trailer.mp4"></video>
+</section>
+```
+The ```<video>``` element can have several attributes to change it's characteristivs e.g.
+* _loop_  loops the video
+* _controls_ turns on the control interface e.g. play/stop/seek
+* _id_ gives the video element a unique name so it can be controlled in JavaScript
+
+
 This is YouTube videos at the moment. The section uses the class "video_container" which sets the dimensions.
 ```
 <section class="video_container">
