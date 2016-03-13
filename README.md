@@ -86,7 +86,9 @@ There are a few methods for having background videos. Probably the easiest one, 
 
 1. Download the Zip file from the link above. Extract andf copy the file src/jquery.vide.js to your project's js folder.
 2. Near the bottom of your index.html file, add the line ```<script src="js/jquery.vide.js"></script>```  below where jquery.min.js is linked
-3. In the section you want the background video, add the data attribute data-vide-bg e.g. ```data-vide-bg="img/trailer"``` will load the video img/trailer.mp4 as background
-4. Add any additional options e.g.```data-vide-options="loop: true, muted: true, position: 0% 0%"``` 
-5. More info is at the [Vide jQuery plugin](https://github.com/VodkaBears/Vide) page
+3. Make sure you video is in mp4 format and in the img folder e.g. img/trailer.mp4
+4. In the section you want the background video, add the data attribute data-vide-bg e.g. ```data-vide-bg="img/trailer"``` will load the video img/trailer.mp4 as background
+5. Add any additional options e.g.```data-vide-options="loop: true, muted: true, position: 0% 0%"``` 
+
+More info is at the [Vide jQuery plugin](https://github.com/VodkaBears/Vide) page
 
