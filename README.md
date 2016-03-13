@@ -80,3 +80,13 @@ Similar to firing off a Youtube vide when scrolled to, we can use ScrollMagic to
 [The code is here](https://github.com/haddersbadders/fancy-longform/tree/Master)
 
 In the "flowers" section header, audio is embeded using the ```<audio>``` element. Playback is controlled in js/index.js using ScollMagic. When the user scrolls to the trigger div, ScrollMagic plays the audio file and pauses when scrolled away.
+
+##Background videos
+There are a few methods for having background videos. Probably the easiest one, if you don't need to control playback with scrolling (e.g. your fist header), is to use the [Vide jQuery plugin](https://github.com/VodkaBears/Vide). This is easy to use: 
+
+1. Download the Zip file from the link above. Extract andf copy the file src/jquery.vide.js to your project's js folder.
+2. Near the bottom of your index.html file, add the line ```<script src="js/jquery.vide.js"></script>```  below where jquery.min.js is linked
+3. In the section you want the background video, add the data attribute data-vide-bg e.g. ```data-vide-bg="img/trailer"``` will load the video img/trailer.mp4 as background
+4. Add any additional options e.g.```data-vide-options="loop: true, muted: true, position: 0% 0%"``` 
+5. More info is at the [Vide jQuery plugin](https://github.com/VodkaBears/Vide) page
+
