@@ -1,16 +1,23 @@
 // Uncomment to initialise WOW.js
 new WOW().init();
 
-// Carousel
-$(document).ready(function() {
+// Owl Carousel initialisation
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel({
+    items: 1,
+    nav: true
+  });
+  // This adds an additional carousel. Remove/comment out if not needed
+  $(".alps-carousel").owlCarousel({
+    items: 1,
+    dots: false,
+    autoplay: true,
+    animateOut: 'fadeOut'
+  }); //
 
-$("#owl-example").owlCarousel({
-
-  singleItem: true,
-  itemsScaleUp: true
 });
 
-});
+
 
 // YouTube Stuff
 
@@ -65,27 +72,33 @@ function stopVideo() {
 
 var controller = new ScrollMagic.Controller();
 
+//
+$(function () {
+  // build scene
+  var scene = new ScrollMagic.Scene({triggerElement: "#_video", duration: 500})
 
-$(function () { // wait for document ready
-    // build scene
-    var scene = new ScrollMagic.Scene({triggerElement: "#_video", duration: 500})
-
-
-            .on("enter", function () {
-                player.playVideo();
-                })
-            .on("leave", function () {
-               player.pauseVideo();
-             })
-            .addTo(controller);
-  });
-
+  .on("enter", function () {
+    player.playVideo();
+  })
+  .on("leave", function () {
+    player.pauseVideo();
+  })
+  .addTo(controller);
+});
 
 
-// Parallax stuff
 
-function parallax() {
-  var prlax = document.getElementByID('prlax');
-  prlax.style.top = -(window.pageYOffset / 4)+'px';
-}
-window.addEventListener("scroll", parallax, false);
+$(function () {
+  // build scene
+  var scene = new ScrollMagic.Scene({triggerElement: "#_htmlVid", duration: 500})
+  // var htmlVideo = document.getElementById("foo")[0];
+
+  .on("enter", function () {
+    document.getElementById('foo').play();
+  })
+  .on("leave", function () {
+    document.getElementById('foo').pause();
+
+  })
+  .addTo(controller);
+});
