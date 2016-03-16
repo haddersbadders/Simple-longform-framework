@@ -92,3 +92,10 @@ There are a few methods for having background videos. Probably the easiest one, 
 
 More info is at the [Vide jQuery plugin](https://github.com/VodkaBears/Vide) page
 
+##Virtual Reality
+The example 360_example.html shows how to use [the A-Frame WebVR framework](https://aframe.io/). It's quite simple to get going, and you can [see it part way down here in the mountains image](http://haddersbadders.github.io/Simple-longform-framework/360_example.html).
+
+All we do is create an additional HTML file (see pano.html), include the A-frame JavaScript file and some specific HTML. This applies the 360 image or video onto the web page. The web page is then inserted in to your main page using an iframe tag. 
+
+The pano.html file needs to be running on a web sever to work. 
+
