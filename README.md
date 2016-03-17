@@ -1,7 +1,14 @@
 
 #A Simple Long-form Framework
 
+<<<<<<< HEAD
+**Todo**
+Make this responsive.
+
+[A more developed demo of the template can be found here.](http://haddersbadders.github.io/longform/)
+=======
 [A demo of this framework can be found here.](http://haddersbadders.github.io/Simple-longform-framework/)
+>>>>>>> master
 
 [Here's the CSS almanac if you need it](https://css-tricks.com/almanac/properties/)
 
