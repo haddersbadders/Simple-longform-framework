@@ -97,5 +97,5 @@ The example 360_example.html shows how to use [the A-Frame WebVR framework](http
 
 All we do is create an additional HTML file (see pano.html), include the A-frame JavaScript file and some specific HTML. This applies the 360 image or video onto the web page. The web page is then inserted in to your main page using an iframe tag. 
 
-The pano.html file needs to be running on a web sever to work. 
+The pano.html file needs to be running on a web sever to work. You can use Github to host or run a personal web server like [Mongoose](https://www.cesanta.com/)
 
