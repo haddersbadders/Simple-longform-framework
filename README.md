@@ -24,7 +24,9 @@ When you want a full width/height image header section, use:
 
 ```<section class="img_container">
   //Content here
-  </section>```
+  </section>
+  
+  ```
 
 When you want some content, add:
 
